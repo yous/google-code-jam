@@ -4,7 +4,7 @@ See the details in <https://code.google.com/codejam/>.
 
 ## Requirements
 
-Ruby 2.2.1
+Ruby >= 1.9.3
 
 ## How to run
 
