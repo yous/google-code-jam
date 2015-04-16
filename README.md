@@ -1,4 +1,4 @@
-# Google Code Jam 2015
+# Google Code Jam
 
 See the details in <https://code.google.com/codejam/>.
 
