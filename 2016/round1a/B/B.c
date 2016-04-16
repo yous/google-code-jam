@@ -7,8 +7,8 @@ int main() {
     int i, j;
 
     scanf("%d%*c", &T);
-    scanf("%d%*c", &N);
     for (i = 1; i <= T; i++) {
+        scanf("%d%*c", &N);
         for (j = 0; j < (2 * N - 1) * N; j++) {
             scanf("%d%*c", &height);
             if (heights[height - 1]) {
@@ -21,6 +21,7 @@ int main() {
         for (j = 0; j < 2500; j++) {
             if (heights[j]) {
                 printf(" %d", j + 1);
+                heights[j] = 0;
             }
         }
         printf("\n");
